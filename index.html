@@ -1,90 +1,208 @@
+<!-- 首页及其他页面的布局-Layout -->
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>不安分的猿人 | helloRestlessMan的个人博客</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="不安分的猿人" />
-<meta name="author" content="helloRestlessMan" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="helloRestlessMan的个人博客" />
-<meta property="og:description" content="helloRestlessMan的个人博客" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="不安分的猿人" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/","headline":"不安分的猿人","author":{"@type":"Person","name":"helloRestlessMan"},"name":"不安分的猿人","description":"helloRestlessMan的个人博客","@type":"WebSite","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="不安分的猿人" /></head>
-<body><header class="site-header" role="banner">
+<html>
+<head>
+<!-- 引入head标签 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="孜孜不断的技术分享!" />
+<meta name="keywords" content="java,副业,程序员" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_default.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">不安分的猿人</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+<!-- Favicon -->
+<link href="/assets/profile.jpeg" rel="shortcut icon" />
+<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+<title>不安分的猿人</title>
+<!-- 百度统计 -->
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Oct 11, 2019</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2019/10/11/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li><li><span class="post-meta">Sep 7, 2018</span>
-        <h3>
-          <a class="post-link" href="/vue/2018/09/07/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">
-            5分钟搭建Java博客系统
-          </a>
-        </h3></li><li><span class="post-meta">Sep 7, 2018</span>
-        <h3>
-          <a class="post-link" href="/vue/2018/09/07/3%E4%B8%AA%E6%9C%88SpringBoot%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.html">
-            Vue + SpringCloud之后端实战经验分享
-          </a>
-        </h3></li><li><span class="post-meta">Sep 7, 2018</span>
-        <h3>
-          <a class="post-link" href="/vue/2018/09/07/fiddler%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-20%E8%A1%8C%E4%BB%A3%E7%A0%81%E8%B5%9A300%E5%9D%97.html">
-            Fiddler抓取数据，20行代码赚500块
-          </a>
-        </h3></li></ul>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<!-- 谷歌分析 -->
 
+
+</head>
+<body>
+<!-- 页面主体 -->
+<header id="index-header">
+  <div class="top-center">
+      <div class="logo">
+          <a href="/" title="my awesome webtitle">https://hellorestlessman.github.io/</a>
       </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">不安分的猿人</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">helloRestlessMan</li><li><a class="u-email" href="mailto:restlessman@sina.cn">restlessman@sina.cn</a></li></ul>
+      <nav class="top-nav">
+          <ul>
+              
+                <li><a href="/">首页</a></li>
+              
+                <li><a href="/tags.html">标签</a></li>
+              
+                <li><a href="/timeline.html">时间线</a></li>
+              
+                <li><a href="/about.html">关于博主</a></li>
+              
+                <li><a href="/friendLink.html">友情链接</a></li>
+              
+          </ul>
+      </nav>
+      <div id="top-boot">
+        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot.png" alt=""></a>
+        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot.png" alt=""></a>
       </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/helloRestlessMan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">helloRestlessMan</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>helloRestlessMan的个人博客</p>
-      </div>
-    </div>
-
   </div>
 
-</footer>
-</body>
+</header>
 
+<div id="boot-area">
+    <ul>
+        
+          <a href="/"><li>首页</li></a>
+        
+          <a href="/tags.html"><li>标签</li></a>
+        
+          <a href="/timeline.html"><li>时间线</li></a>
+        
+          <a href="/about.html"><li>关于博主</li></a>
+        
+          <a href="/friendLink.html"><li>友情链接</li></a>
+        
+    </ul>
+</div>
+
+<main>
+    <div class="wow fadeIn top" data-wow-duration="3.5s" >
+    <span class="wow fadeInUp" data-wow-delay="0.2s">不安分的猿人</span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s">restlessMan</span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">孜孜不倦的技术分享</span>
+</div>
+
+    <ul class="post-list">
+      
+  <a href="/2018/05/17/fiddler%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-20%E8%A1%8C%E4%BB%A3%E7%A0%81%E8%B5%9A300%E5%9D%97.html">
+      <li class="fadeInUp animated">
+          
+          <div class="post-cover" style="background:url(../assets/test.png);background-size:cover;background-position:center;"></div>
+          
+          <section class="post-preview">
+              <h2 class="post-title">Fiddler抓取数据，20行代码赚500块</h2>
+              
+              <h3 class="post-subtitle">Welcome to Jekyll!</h3>
+              
+              
+          </section>
+          <footer class="post-tags">
+                
+                    
+                    <a href=tags.html#jekyll class="post-tag">jekyll</a>
+                    
+                    <a href=tags.html#update class="post-tag">update</a>
+                    
+                
+                <time class="post-date" datetime="18-05-17">17 May 2018</time>
+          </footer>
+      </li>
+  </a>
+
+  <a href="/2018/05/17/welcome-to-jekyll.html">
+      <li class="fadeInUp animated">
+          
+          <div class="post-cover" style="background:url(../assets/test.png);background-size:cover;background-position:center;"></div>
+          
+          <section class="post-preview">
+              <h2 class="post-title">Welcome to Jekyll!</h2>
+              
+              <h3 class="post-subtitle">Welcome to Jekyll!</h3>
+              
+              
+          </section>
+          <footer class="post-tags">
+                
+                    
+                    <a href=tags.html#jekyll class="post-tag">jekyll</a>
+                    
+                    <a href=tags.html#update class="post-tag">update</a>
+                    
+                
+                <time class="post-date" datetime="18-05-17">17 May 2018</time>
+          </footer>
+      </li>
+  </a>
+
+
+    </ul>
+</main>
+<nav class="pagination">
+  <div class="page-links">
+    
+        <a href="/" class="page-link" title="Index Page">1</a>
+    
+    
+    
+        <!-- 
+            <a href="/page2/" class="page-link" title="Next Page">&raquo;</a>
+         -->
+        <a href="/page2/" class="page-link" title="Next Page">&raquo;</a>
+    
+    
+  </div>
+
+</nav>
+
+<footer id="bottom">
+  <br>
+  <span>不安分的猿人 ©
+  
+  
+    2018
+    -
+  
+  2019
+  <br>
+  Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span>
+</footer>
+
+
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 5,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+
+</body>
 </html>
